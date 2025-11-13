@@ -1,0 +1,22 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+.listacirculovacio{
+    list-style-type: circle;
+}
+.listacuadrado{
+    list-style-type: square;
+}
+.colorplum{
+    color: plum;
+}
+.colorburly{
+    color: burlywood;
+}
+.colororange{
+    color: orange;
+}
+.oliva{
+    color: olivedrab;
+}

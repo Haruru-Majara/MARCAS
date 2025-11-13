@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>FORMULARIO EJEMPLO</h2>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre de usuario" autofocus required><br><br>
+            <label for="cont">Contraseña</label>
+            <input type="password" name="contra" id="contra"><br>
+            <br><label>Escribe sobre ti</label><br>
+            <textarea name="sobreti" rows="5" cols="20" placeholder="Cuentanos algo"></textarea>
+            <br>
+        </fieldset>
+         <fieldset>
+            <legend>Opciones</legend>
+            <input type="radio" name="valor" value="si" checked>No
+            <input type="radio" name="valor" value="no">No sé
+            <br><br>
+            <label>Elige opciones</label>
+            <br>
+            <input type="checkbox" name="opciones" value="opc1" checked>opción1
+            <input type="checkbox" name="opciones" value="opc2" checked>opción2
+            <input type="checkbox" name="opciones" value="opc3">opción3
+            <input type="checkbox" name="opciones" value="opc4">opción4
+            <br><br>
+            <label>Elige opción</label>
+            <select name="opcion2">
+                <option value="1">opcion1</option>
+                <option value="2">opcion2</option>
+                <option value="3">opcion3</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <input type="button" value="Botón normal">
+        <input type="reset" value="Borrar datos">
+        <input type="submit" value="Enviar datos">
+    </form>
+</body>
+</html>

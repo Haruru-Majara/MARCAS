@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/fotos9/Wallfall.jpg");
+    margin-left: 30px;
+    font-family: Poppins;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.negrita{
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+    font-size: 28px;
+}
+.titulo{
+    font-size: 40px;
+    color: #666;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 25px;
+    color: #666;
+    text-align: right;
+
+}
+.fotos{
+    font-style: italic;
+    font-size: 27px;
+}
+.respuesta{
+    font-size: 26px;
+    color:#000;
+}
+.enlotrapag{
+    color: rgb(68, 2, 68);
+}

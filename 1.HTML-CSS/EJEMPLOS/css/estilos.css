@@ -1,0 +1,15 @@
+/*comentario*/
+body {
+        background: cornflowerblue;
+    }
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: purple;
+        text-align: right;
+    }
+    h1{
+        color: white;
+        background: rgb(243, 152, 167);
+        text-align: center;
+    }

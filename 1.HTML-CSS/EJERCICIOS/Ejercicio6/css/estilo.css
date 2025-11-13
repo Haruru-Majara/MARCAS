@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Epilogue";
+    src: url("../fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+body{
+    background-color: black;
+    color:whitesmoke;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    font-family: "Epilogue";
+    font-size: 100%;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}

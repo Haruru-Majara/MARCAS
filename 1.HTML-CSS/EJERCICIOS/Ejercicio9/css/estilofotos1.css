@@ -1,0 +1,23 @@
+body{
+    background-color: #E1D6C8;
+    font-family: "Poppins";
+    color: #FF00CC;
+    margin-left: 10px;
+    font-size: 26px;
+}
+
+.imgIzq{
+    width: 200px;
+    height: 300px;
+    margin-right: 10px;
+}
+
+.imgDere{
+    width: 200px;
+    height: 300px;
+    margin-left: 10px;
+}
+
+.center{
+    text-align: center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        } 
+        @font-face {
+        font-family: 'Nunito';
+        src: url("Nunito.ttf");
+        }
+        body{
+            font-family: 'Nunito';
+            font-size: 20px;
+            color: #D67002;
+        }
+        #encabezado{
+            height: 400px;
+            width: 100%;
+            background-image: url("encabezado.jpg");
+            background-size: cover;
+        }
+        .cuadrouno{
+            width: 60%;
+            height: 500px;
+            text-align: justify;
+            padding: 40px;
+            border: 1px solid color#d67002;
+        }
+        .cuadrouno a{
+            width: 25%;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            background-color: #D67002;
+            color: white;
+        }
+        .cuadrodos{
+            width: 40%;
+            height: 500px;
+            text-align: center;
+            background-color: #D67002;
+        }
+        .cuadro2 img{
+            width: 80%;
+            height: 80%;
+
+        }
+        table{
+            width: 100%;
+        }
+        .cuadrotres{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            padding: 40px;
+            background-color: white;
+            border: 1px solid #D67002;
+        }
+        #pie {
+            width: 100%;
+            height: 60px;
+            background-color: #D67002;
+            color: white;
+            padding: 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="encabezado">
+
+    </div>
+    <table>
+        <tr>
+            <td class="cuadrouno">
+                <h2>Beneficios de la meditación</h2>
+                Los beneficios que adquiere nuestra vida a través de la meditación son innumerables, una de ellas es aprender a tomar conciencia de nuestros actos y nuestra voluntad, porque conocer a fondo las pautas de nuestro razonamiento, hace poder empezar a controlar y modificar los malos pensamientos, prejuicios, etc.
+                <ol>
+                    <li>Reduce el estrés y la ansiedad</li>
+                    <li>Mejora la concentración y la memoria</li>
+                    <li>Aumenta el bienestar emocional</li>
+                    <li>Ayuda a controlar emociones</li>
+                </ol>
+                <a href="http://www.youtube.com/c/Meditacion3/" target="_blank">IR AL CANAL DE YOUTUBE</a>
+            </td>
+            <td class="cuadrodos">
+                <a href="kundalini.jpg" target="_blank"><img src="kundalini.jpg"></a>
+            </td>
+        </tr>
+    </table>
+    <div class="cuadrotres">
+    <form>
+        <h2>Tu opinión es importante</h2>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <br>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+            <br>
+            <textarea name="experiencia" rows="4" placeholder="Cuentanos tus experiencias con la meditación y el mindfullness"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>¿Qué mediatación prefieres?</legend>
+            <select name="opciones">
+                <option value=”valor enviado1”>Maindfullness</option>
+                <option value=”valor enviado2”>Profundización</option>
+                <option value=”valor enviado3”>Otra...</option>
+            </select>
+            <br>
+            <input type="button" value="Ayúdanos a mejorar" class="colorboton">
+        </fieldset>
+    </form>
+    </div>
+    <div id="pie">
+        Mindfullness y Meditación
+    </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Dosis" ;
+    src: url("../fuentes/Dosis/Dosis-VariableFont_wght.ttf");
+}
+body{
+    background-color:azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    color:#024956;
+    margin-left:30px
+}
+
+a {
+    color:cadetblue;
+    font-family:"Dosis" ;
+    text-decoration: none; /*esto quita el subrayado a los enlaces*/
+}
