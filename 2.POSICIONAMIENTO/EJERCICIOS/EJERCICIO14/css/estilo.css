@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#menu{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 350px;
+    height: 200px;
+}
+#contenedor{
+    margin-top: 40px;
+    width: 800px;
+    height: 300px;
+}
+#pie{
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 740px;
+    height: 60px;
+}
+#encabezado{
+    width: 500px;
+    height: 60px;
+}
+#lateral{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 350px;
+}
+img{
+    margin-top: 50px;
+    margin-left: 70px;
+    width: 300px;
+    height: 200px;
+}
