@@ -29,6 +29,13 @@ body{
 #encabezado{
     width: 500px;
     height: 60px;
+    background-color: #83737d;
+    border-radius: 5px;
+}
+#encabezado>h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 #lateral{
     margin-top: 20px;
