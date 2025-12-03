@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: 'Raleway';
+            src: url("../font/Raleway.ttf");
+        }
+
+        @font-face {
+            font-family: 'Epilogue';
+            src: url("../font/Epilogue.ttf");
+        }
+
+        #encabezado{
+            position:relative;
+            float:left;
+            width:100%;
+            height: 100px;
+            background-color:orangered;
+            padding: 20px 0px;
+        }
+
+        #encabezado>h1{
+            color: white;
+            font-family: 'Raleway';
+        }
+        #logos{
+            text-align: right;
+        }
+        #logos>img{
+            height: 40px;
+            width: 40px;
+        }
+        #cuadroF{
+            position:relative;
+            float:left;
+            width:100%;
+            height: 700px;
+            background-color: rgb(255, 147, 107, 0.5);            
+            padding: 20px;
+            
+        }
+        #cuadroF .interior {
+            position:relative;
+            float:left;
+            width:50%;
+            height: 50%;     
+            
+            text-align: center;
+            padding: 20px;                
+        }
+        #cuadroF .interior img {  
+            width: 50%;
+            height: auto;
+        }
+        #cuadroF .interior p {  
+        
+            width: 40%;
+            background-color: white;
+            border:1px solid orangered;
+            box-shadow: 0px 0px 4px orangered;
+            color:orangered;
+            text-align: center;
+        }
+        #cuadroR{
+            position:relative;
+            float:left;
+            width:100%;
+            height:100%;  
+            background-color: rgb(247, 121, 75);
+        }        
+    </style>
+</head>
+<body>
+    <div id="encabezado">        
+        <h1>DEPORTES</h1>
+        <div id="logos">
+            <img src="img/northface.jpg">
+            <img src="img/shimano.jpg">
+            <img src="img/timberland.jpg">
+        </div>
+    </div>
+    <div id="cuadroR">
+        <div id="cuadroF">
+                <div class="interior">
+                    <img src="img/nieve.jpg">
+                    <p>NIEVE</p>
+                </div>
+                <div class="interior">
+                    <img src="img/trekking.jpg">
+                    <p>TRECKING</p>
+                </div>
+                <div class="interior">
+                    <img src="img/fitness.jpg">
+                    <p>FITNESS</p>
+                </div>
+                <div class="interior">
+                    <img src="img/ciclismo.jpg">
+                    <p>CICLISMO</p>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

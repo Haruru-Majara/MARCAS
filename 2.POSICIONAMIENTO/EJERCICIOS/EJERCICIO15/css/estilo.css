@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../font/Raleway.ttf");
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url("../font/Epilogue.ttf");
+}
+
+#encabezado{
+    background-color: rgb(255, 147, 107, 0.5);
+    padding: 20px 0px;
+}
+
+#encabezado>h1{
+    color: white;
+    font-family: 'Raleway';
+}
+#logos{
+    text-align: right;
+}
+#logos>img{
+    height: 40px;
+    width: 40px;
+}
+#cuadroR{
+    padding: 20px;
+    
+}
